@@ -20,7 +20,9 @@
   sudo apt install python3-gpiozero
   sudo python3 kismet_control_switch.py
   ```
-- Ensure you wire as per python script. GPIO 5 and GND. You can alter as required.
+- Ensure you wire as per python script. GPIO5 and GND. You can alter as required.
+
+- 
 
 
 ![McSearchy](https://github.com/deeeblack/McSearchy/assets/18100269/81bff66e-1ad5-4d25-af21-203acf6bb14b)
