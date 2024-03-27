@@ -16,6 +16,7 @@ A little tool to help with wardriving. It runs 4 x Alfa cards. Kismet is configu
 - [`Makita Batter Mount`](https://www.thingiverse.com/thing:352094) - Makita Battery Mount. You can find many of these that suit the battery terminal above.
 
 # Software
+- [`RaspiOS Bookworm`](https://www.raspberrypi.com/software/) - Latest RaspiOS, because it just works well with the Pi4 and you can still install all your fav repos.
 - [`Kismet`](https://www.kismetwireless.net/) - Kismet is a sniffer, WIDS, and wardriving tool for Wi-Fi, Bluetooth, Zigbee, RF, and more, which runs on Linux and macOS
 - [`Kismet Packages (Nightly Build)`](https://www.kismetwireless.net/packages/) - These repositories are maintained on the Kismet server, and contain the latest Kismet releases and nightly package builds.
 - [`Kismet_Control Switch.py`](https://github.com/deeeblack/McSearchy/blob/b38a719ff690216369c0e0bfd0405533536866a5/kismet_control_switch.py) - This is a physical switch that will start and stop Kismet. Its basically pulling a GPIO pin high and low and starting/stopping kismet.
