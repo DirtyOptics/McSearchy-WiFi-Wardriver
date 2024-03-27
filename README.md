@@ -1,6 +1,6 @@
 # McSearchy - Portable WiFi Analysis Tool
 
-### Hardware
+# Hardware
 - [`Alfa AWUS036ACH`](https://www.alfa.com.tw/) - USB WiFi Adater 2.4Ghz/5Ghz x2
 - [`Alfa AWUS036AXML`](https://www.alfa.com.tw/) - USB WiFi Adater 2.4Ghz, 5Ghz & 6Ghz (Tri-Band) x2
 - [`RPi4`](https://www.raspberrypi.com/) - Raspberry Pi 4b Single Board Computer (RasPi OS - Jammy)
@@ -8,7 +8,7 @@
 - [`2 x Makita Battery Terminal`](https://www.amazon.com/Makita-643838-6-Terminal-Replacement-Part/dp/B01014GPZS) - Makita Battery Termianl Part number: 6438386
 - [`Mbeat USB Hub`](https://www.ple.com.au/Products/665182/mbeat-4-port-usb-a-30-hub-with-dc-port) - Mbeat or similar USB HUB. Needs to be able to inject DC. I also modded the USB-A to NOT include the power pins.
 - [`USB GPS`](https://www.amazon.com/GlobalSat-BU-353N5-GNSS-Receiver-Black/dp/B0B1W1YBZC?th=1) - USB GPS reciever. These come in many flavours. As long as it works with GPSD your in buiness.
-<br />
+
 ### 3D Design Files
 - [`Body 1.2024 STL`](https://github.com/deeeblack/McSearchy/blob/d8a8ad45816862e5c889b6f45955ff5700517497/Body%201.2024.stl) - This design will hold 4 x Alfa Cards in the slots.
 - [`Front 1.2024 STL`](https://github.com/deeeblack/McSearchy/blob/d8a8ad45816862e5c889b6f45955ff5700517497/Front%201.2024.stl) - This top lid for the box. Aligns with antennas and holds cards in tight.
