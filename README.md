@@ -24,7 +24,7 @@ A little tool to help with wardriving. It runs 4 x Alfa cards. Kismet is configu
   ```
   sudo apt update
   sudo apt install python3-gpiozero
-  sudo nano kismet_control_switch.py #Paste contents from repo file.
+  sudo nano kismet_control_switch.py # Paste contents from repo file above.
   sudo chmod -x kismet_control_switch.py
   sudo python3 kismet_control_switch.py
   ```
@@ -49,6 +49,7 @@ A little tool to help with wardriving. It runs 4 x Alfa cards. Kismet is configu
   sudo supervisorctl status all
   sudo supervisorctl stop kismet-switch-supervisorD.conf # Example use.
   ```
+
 
 (This version does not have the switches installed. I have since added a power and IO switch to toggle Kismet.)
 ![McSearchy](https://github.com/deeeblack/McSearchy/assets/18100269/81bff66e-1ad5-4d25-af21-203acf6bb14b)
