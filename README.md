@@ -32,7 +32,7 @@ A little tool to help with wardriving. It runs 4 x Alfa cards. Kismet is configu
   ```
 - Ensure you wire as per python script. GPIO5 and GND. You can alter as required.
 - If you want to get adventurous and use supervisorD, use the repo supervisorD file as an example.
-- I placed the python file in /home/db/ Feel free to change directory, but alter the conf files as needed.
+- I placed the python file in /home/user/ Feel free to change directory, but alter the conf files as needed.
 
 # SupervisorD
 - [`kismet-switch-supervisorD.conf`](https://github.com/deeeblack/McSearchy/blob/32067634b13588a34a37c96f3404a9ec4581c5ec/kismet-switch-supervisorD.conf) - Manual switch conf file runs up the python code automatically.
