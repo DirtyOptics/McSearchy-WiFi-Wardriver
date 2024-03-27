@@ -31,5 +31,19 @@
 - If you want to get adventurous and use supervisorD, use the repo supervisorD file as an example.
 - I placed the python file in /home/db/ Feel free to change directory, but alter the conf files as needed.
 
+### SupervisorD
+  ```
+  sudo apt update
+  sudo apt install supervisor
+
+  #place supervisorD conf files here:
+  /etc/supervisor/conf.d
+
+  #run the following commands to refresh/start/stop supervisorD
+  sudo supervisorctl reread
+  sudo supervisorctl update
+  sudo supervisorctl status all
+  sudo supervisorctl stop kismet-switch-supervisorD.conf # Example use.
+  ```
 
 ![McSearchy](https://github.com/deeeblack/McSearchy/assets/18100269/81bff66e-1ad5-4d25-af21-203acf6bb14b)
