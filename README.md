@@ -14,6 +14,7 @@ A little tool to help with wardriving. It runs 4 x Alfa cards. Kismet is configu
 - [`Body 1.2024 STL`](https://github.com/deeeblack/McSearchy/blob/d8a8ad45816862e5c889b6f45955ff5700517497/Body%201.2024.stl) - This design will hold 4 x Alfa Cards in the slots.
 - [`Front 1.2024 STL`](https://github.com/deeeblack/McSearchy/blob/d8a8ad45816862e5c889b6f45955ff5700517497/Front%201.2024.stl) - This top lid for the box. Aligns with antennas and holds cards in tight.
 - [`Makita Battery Mount`](https://www.thingiverse.com/thing:352094) - Makita Battery Mount. You can find many of these that suit the battery terminal above.
+- [`Enclosure Handle`](https://www.thingiverse.com/thing:4619895) - Print this strong! 60% infil minimum.
 
 # Software
 - [`RaspiOS Bookworm`](https://www.raspberrypi.com/software/) - Latest RaspiOS, because it just works well with the Pi4 and you can still install all your fav repos.
@@ -54,3 +55,8 @@ A little tool to help with wardriving. It runs 4 x Alfa cards. Kismet is configu
 
 (This version does not have the switches installed. I have since added a power and IO switch to toggle Kismet.)
 ![McSearchy](https://github.com/deeeblack/McSearchy/assets/18100269/81bff66e-1ad5-4d25-af21-203acf6bb14b)
+
+# To Do:
+- 12v Vehicle Power Supply. Save Battery.
+- New enclosure.
+- 
