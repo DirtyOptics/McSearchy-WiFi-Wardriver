@@ -47,4 +47,5 @@ A little tool to help with wardriving. It runs 4 x Alfa cards. Kismet is configu
   sudo supervisorctl stop kismet-switch-supervisorD.conf # Example use.
   ```
 
+(This version does not have the switches installed. I have since added a power and IO switch to toggle Kismet.)
 ![McSearchy](https://github.com/deeeblack/McSearchy/assets/18100269/81bff66e-1ad5-4d25-af21-203acf6bb14b)
