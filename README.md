@@ -36,10 +36,10 @@
   sudo apt update
   sudo apt install supervisor
 
-  #place supervisorD conf files here:
+  # Place supervisorD conf files here:
   /etc/supervisor/conf.d
 
-  #run the following commands to refresh/start/stop supervisorD
+  # Run the following commands to refresh/start/stop supervisorD
   sudo supervisorctl reread
   sudo supervisorctl update
   sudo supervisorctl status all
