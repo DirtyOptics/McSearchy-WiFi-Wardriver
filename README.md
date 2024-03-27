@@ -1,4 +1,4 @@
-# McSearchy - Wardriving 
+# McSearchy - WiFi Analysis Tool
 
 ### Hardware
 - [`Alfa AWUS036ACH`](https://www.alfa.com.tw/) - USB WiFi Adater 2.4Ghz/5Ghz x2
