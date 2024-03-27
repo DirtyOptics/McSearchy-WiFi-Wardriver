@@ -1,4 +1,5 @@
 # McSearchy - Portable WiFi Analysis Tool
+A little tool to help with wardriving. It runs 4 x Alfa cards. Kismet is configured to run automatically using these 4 data sources and is toggled on/off via a switch. Runtime with 2 x Makita 6a (18v) batteries is just over 12 hours. The Rpi4 hosts and logs everything using Kismet.
 
 # Hardware
 - [`Alfa AWUS036ACH`](https://www.alfa.com.tw/) - USB WiFi Adater 2.4Ghz/5Ghz x2
