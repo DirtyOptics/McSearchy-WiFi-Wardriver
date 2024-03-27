@@ -58,5 +58,6 @@ A little tool to help with wardriving. It runs 4 x Alfa cards. Kismet is configu
 
 # To Do:
 - 12v Vehicle Power Supply. Save Battery.
-- New enclosure.
-- 
+- New enclosure
+- Suitable length/colour Nuts and Bolts. Get rid of assortment.
+- New Makita Battery Mount that fits this enclosure better. Possible redesign.
