@@ -1,4 +1,4 @@
-# McSearchy
+# McSearchy - Wardriving 
 
 ### Hardware
 - [`Alfa AWUS036ACH`](https://www.alfa.com.tw/) - USB WiFi Adater 2.4Ghz/5Ghz x2
@@ -14,7 +14,7 @@
 - [`Kismet Packages (Nightly Build)`](https://www.kismetwireless.net/packages/) - These repositories are maintained on the Kismet server, and contain the latest Kismet releases and nightly package builds.
 - [`Kismet_Control Switch.py`](https://github.com/deeeblack/McSearchy/blob/b38a719ff690216369c0e0bfd0405533536866a5/kismet_control_switch.py) - This is a physical switch that will start and stop Kismet. Its basically pulling a GPIO pin high and low and starting/stopping kismet.
 
-### Kismet Control Switch
+### Kismet Control Switch (Python, SupervisorD, GPIO and a Switch!)
   ```
   sudo apt update
   sudo apt install python3-gpiozero
