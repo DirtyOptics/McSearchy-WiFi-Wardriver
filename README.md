@@ -33,6 +33,9 @@ A little tool to help with wardriving. It runs 4 x Alfa cards. Kismet is configu
 - I placed the python file in /home/db/ Feel free to change directory, but alter the conf files as needed.
 
 # SupervisorD
+- [`kismet-switch-supervisorD.conf`](https://github.com/deeeblack/McSearchy/blob/32067634b13588a34a37c96f3404a9ec4581c5ec/kismet-switch-supervisorD.conf) - Manual switch conf file runs up the python code automatically.
+- [`mcsearchy-supervisorD-4cards.conf`](https://github.com/deeeblack/McSearchy/blob/32067634b13588a34a37c96f3404a9ec4581c5ec/mcsearchy-supervisorD-4cards.conf) - This conf file could be used to push the data sources to a remote server (NUC or similar. At present I am not using this in McSearchy)
+
   ```
   sudo apt update
   sudo apt install supervisor
