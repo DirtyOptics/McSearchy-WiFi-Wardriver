@@ -7,10 +7,12 @@
 - [`2 x Step Down Regs`](https://www.pololu.com/product/4091) - Makita Battery Step Down Regs
 - [`2 x Makita Battery Terminal`](https://www.amazon.com/Makita-643838-6-Terminal-Replacement-Part/dp/B01014GPZS) - Makita Battery Termianl Part number: 6438386
 - [`Mbeat USB Hub`](https://www.ple.com.au/Products/665182/mbeat-4-port-usb-a-30-hub-with-dc-port) - Mbeat or similar USB HUB. Needs to be able to inject DC. I also modded the USB-A to NOT include the power pins.
+- [`USB GPS`](https://www.amazon.com/GlobalSat-BU-353N5-GNSS-Receiver-Black/dp/B0B1W1YBZC?th=1) - USB GPS reciever. These come in many flavours. As long as it works with GPSD your in buiness.
 
 ### 3D Design Files
 - [`Body 1.2024 STL`](https://github.com/deeeblack/McSearchy/blob/d8a8ad45816862e5c889b6f45955ff5700517497/Body%201.2024.stl) - This design will hold 4 x Alfa Cards in the slots.
 - [`Front 1.2024 STL`](https://github.com/deeeblack/McSearchy/blob/d8a8ad45816862e5c889b6f45955ff5700517497/Front%201.2024.stl) - This top lid for the box. Aligns with antennas and holds cards in tight.
+- [`Makita Batter Mount`](https://www.thingiverse.com/thing:352094) - Makita Battery Mount. You can find many of these that suit the battery terminal above.
 
 ### Software
 - [`Kismet`](https://www.kismetwireless.net/) - Kismet is a sniffer, WIDS, and wardriving tool for Wi-Fi, Bluetooth, Zigbee, RF, and more, which runs on Linux and macOS
