@@ -61,3 +61,8 @@ A little tool to help with wardriving. It runs 4 x Alfa cards. Kismet is configu
 - New enclosure
 - Suitable length/colour Nuts and Bolts. Get rid of assortment.
 - New Makita Battery Mount that fits this enclosure better. Possible redesign.
+
+# Kudos
+
+- [`Busy Signal`](https://github.com/busysignal) - Getting me started with supervisorD and a fair bit of advice.
+- [`Discord`](https://discord.com) - Kismet Wireless and Wardriving Research Department channels.
