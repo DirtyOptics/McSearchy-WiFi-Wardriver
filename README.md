@@ -35,7 +35,7 @@ A little tool to help with wardriving. It runs 4 x Alfa cards. Kismet is configu
 - I placed the python file in /home/user/ Feel free to change directory, but alter the conf files as needed.
 
 # SupervisorD
-- [`kismet-switch-supervisorD.conf`](hhttps://github.com/DirtyOptics/McSearchy-WiFi-Wardriver/blob/7c1b2386bd55d98d62b2f00a93cacda5cb570be8/kismet-switch-supervisorD.conf) - Manual switch conf file runs up the python code automatically.
+- [`kismet-switch-supervisorD.conf`](https://github.com/DirtyOptics/McSearchy-WiFi-Wardriver/blob/7c1b2386bd55d98d62b2f00a93cacda5cb570be8/kismet-switch-supervisorD.conf) - Manual switch conf file runs up the python code automatically.
 - [`mcsearchy-supervisorD-4cards.conf`](https://github.com/DirtyOptics/McSearchy-WiFi-Wardriver/blob/7c1b2386bd55d98d62b2f00a93cacda5cb570be8/mcsearchy-supervisorD-4cards.conf) - This conf file could be used to push the data sources to a remote server (NUC or similar. At present I am not using this in McSearchy)
 
   ```
