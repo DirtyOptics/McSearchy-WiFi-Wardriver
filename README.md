@@ -11,8 +11,8 @@ A little tool to help with wardriving. It runs 4 x Alfa cards. Kismet is configu
 - [`USB GPS`](https://www.amazon.com/GlobalSat-BU-353N5-GNSS-Receiver-Black/dp/B0B1W1YBZC?th=1) - USB GPS reciever. These come in many flavours. As long as it works with GPSD your in buiness.
 
 # 3D Design Files
-- [`Body 1.2024 STL`](https://github.com/deeeblack/McSearchy/blob/d8a8ad45816862e5c889b6f45955ff5700517497/Body%201.2024.stl) - This design will hold 4 x Alfa Cards in the slots.
-- [`Front 1.2024 STL`](https://github.com/deeeblack/McSearchy/blob/d8a8ad45816862e5c889b6f45955ff5700517497/Front%201.2024.stl) - This top lid for the box. Aligns with antennas and holds cards in tight.
+- [`Body 1.2024 STL`](https://github.com/DirtyOptics/McSearchy-WiFi-Wardriver/blob/7c1b2386bd55d98d62b2f00a93cacda5cb570be8/Body%201.2024.stl) - This design will hold 4 x Alfa Cards in the slots.
+- [`Front 1.2024 STL`](https://github.com/DirtyOptics/McSearchy-WiFi-Wardriver/blob/7c1b2386bd55d98d62b2f00a93cacda5cb570be8/Front%201.2024.stl) - This top lid for the box. Aligns with antennas and holds cards in tight.
 - [`Makita Battery Mount`](https://www.thingiverse.com/thing:352094) - Makita Battery Mount. You can find many of these that suit the battery terminal above.
 - [`Enclosure Handle`](https://www.thingiverse.com/thing:4619895) - Print this strong! 60% infil minimum.
 
@@ -20,7 +20,7 @@ A little tool to help with wardriving. It runs 4 x Alfa cards. Kismet is configu
 - [`RaspiOS Bookworm`](https://www.raspberrypi.com/software/) - Latest RaspiOS, because it just works well with the Pi4 and you can still install all your fav repos.
 - [`Kismet`](https://www.kismetwireless.net/) - Kismet is a sniffer, WIDS, and wardriving tool for Wi-Fi, Bluetooth, Zigbee, RF, and more, which runs on Linux and macOS
 - [`Kismet Packages (Nightly Build)`](https://www.kismetwireless.net/packages/) - These repositories are maintained on the Kismet server, and contain the latest Kismet releases and nightly package builds.
-- [`Kismet_Control Switch.py`](https://github.com/deeeblack/McSearchy/blob/b38a719ff690216369c0e0bfd0405533536866a5/kismet_control_switch.py) - This is a physical switch that will start and stop Kismet. Its basically pulling a GPIO pin high and low and starting/stopping kismet.
+- [`Kismet_Control Switch.py`](https://github.com/DirtyOptics/McSearchy-WiFi-Wardriver/blob/7c1b2386bd55d98d62b2f00a93cacda5cb570be8/kismet_control_switch.py) - This is a physical switch that will start and stop Kismet. Its basically pulling a GPIO pin high and low and starting/stopping kismet.
 
 # Kismet Control Switch (Manual Switch to Start/Stop Kismet)
   ```
@@ -35,8 +35,8 @@ A little tool to help with wardriving. It runs 4 x Alfa cards. Kismet is configu
 - I placed the python file in /home/user/ Feel free to change directory, but alter the conf files as needed.
 
 # SupervisorD
-- [`kismet-switch-supervisorD.conf`](https://github.com/deeeblack/McSearchy/blob/32067634b13588a34a37c96f3404a9ec4581c5ec/kismet-switch-supervisorD.conf) - Manual switch conf file runs up the python code automatically.
-- [`mcsearchy-supervisorD-4cards.conf`](https://github.com/deeeblack/McSearchy/blob/32067634b13588a34a37c96f3404a9ec4581c5ec/mcsearchy-supervisorD-4cards.conf) - This conf file could be used to push the data sources to a remote server (NUC or similar. At present I am not using this in McSearchy)
+- [`kismet-switch-supervisorD.conf`](hhttps://github.com/DirtyOptics/McSearchy-WiFi-Wardriver/blob/7c1b2386bd55d98d62b2f00a93cacda5cb570be8/kismet-switch-supervisorD.conf) - Manual switch conf file runs up the python code automatically.
+- [`mcsearchy-supervisorD-4cards.conf`](https://github.com/DirtyOptics/McSearchy-WiFi-Wardriver/blob/7c1b2386bd55d98d62b2f00a93cacda5cb570be8/mcsearchy-supervisorD-4cards.conf) - This conf file could be used to push the data sources to a remote server (NUC or similar. At present I am not using this in McSearchy)
 
   ```
   sudo apt update
