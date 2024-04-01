@@ -52,9 +52,8 @@ A little tool to help with wardriving. It runs 4 x Alfa cards. Kismet is configu
   sudo supervisorctl stop kismet-switch-supervisorD.conf # Example use.
   ```
 
+![McSearchy (2)](https://github.com/DirtyOptics/McSearchy-WiFi-Wardriver/assets/18100269/d8c96476-8a5c-4c25-a316-b7d71eae1e3f)
 
-(This version does not have the switches installed. I have since added a power and IO switch to toggle Kismet.)
-![McSearchy](https://github.com/deeeblack/McSearchy/assets/18100269/81bff66e-1ad5-4d25-af21-203acf6bb14b)
 
 # To Do:
 - 12v Vehicle Power Supply. Save Battery.
